@@ -22,12 +22,12 @@ public class AdditionTest {
 
 	@Test
 	public void testCalculer() throws Exception {
-		assertEquals(new Long(4), op.calculer(new Long(3), new Long(3)));
+		assertEquals(new Long(4), op.calculer(new Long(1), new Long(3)));
 	}
 
 	@Test
 	public void testLireSymbole() throws Exception {
-		assertEquals((Character) '+', op.lireSymbole());
+		assertEquals((Character) '-', op.lireSymbole());
 	}
 
 }
